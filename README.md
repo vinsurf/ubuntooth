@@ -20,11 +20,11 @@ After installation, open a terminal and clone this repository.
 
     $ sudo apt-get install git
     $ cd /
-    $ mkdir usr/local/vinsurf
-    $ chmod -R 777 usr/local/vinsurf
+    $ sudo mkdir usr/local/vinsurf
     $ cd /usr/local/vinsurf
     $ git clone https://github.com/vinsurf/ubuntooth.git
     $ cd ubuntooth
+    $ sudo chmod 777 giorgino-00.sh
     $ ./giorgino-00.sh
 
 
@@ -33,4 +33,5 @@ After installation, open a terminal and clone this repository.
 Run **giorgino-01.sh**.
 
     $ cd /usr/local/vinsurf/ubuntooth
+    $ sudo chmod 777 giorgino-01.sh
     $ ./giorgino-01.sh
