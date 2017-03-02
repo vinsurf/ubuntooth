@@ -16,7 +16,7 @@ Complete the installation and reboot. Update and upgrade the system, install pro
 
 ## Install git, clone this repository and run giorgino-01.sh
 
-Open a terminal and clone this repository.
+Open a terminal, copy from here (ctrl+v) and paste in the consolle (shift+ctrl+c)
 
     $ sudo apt install -y git
     $ cd /
@@ -26,3 +26,4 @@ Open a terminal and clone this repository.
     $ cd ubuntooth
     $ sudo chmod 777 giorgino-01.sh
     $ ./giorgino-01.sh
+
