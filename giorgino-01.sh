@@ -8,6 +8,10 @@ sudo mkdir /usr/local/vinsurf/scripts/modules
 cd /usr/local/vinsurf/scripts/addons
 sudo git clone https://github.com/patmo141/odc_public.git
 sudo git clone https://github.com/patmo141/cut_mesh.git
+sudo git clone https://github.com/patmo141/object_alignment.git
+sudo git clone https://github.com/patmo141/object_bounding_box.git
+sudo git clone https://github.com/patmo141/object_k_segmentation.git
+sudo git clone https://github.com/patmo141/anatomic-implants.git
 #This script install several software for Ubuntooth, useful in digital dentistry workflow, and add some ppa to keep the software updated to latest version
 #Adding ppa....
 sudo add-apt-repository -y ppa:thomas-schiex/blender
