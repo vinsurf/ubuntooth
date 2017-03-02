@@ -12,11 +12,11 @@ It also includes installer-scripts for several software.
 
 You can get iso of kde-neon-lts from https://files.kde.org/neon/images/neon-userltsedition/current/neon-userltsedition-current.iso
 
-Complete the installation and reboot.
+Complete the installation and reboot. Update and upgrade the system, install propietary driver for graphics card if needed, and reboot. Now you're ready.
 
 ## Install git, clone this repository and run giorgino-01.sh
 
-After installation, open a terminal and clone this repository.
+Open a terminal and clone this repository.
 
     $ sudo apt install -y git
     $ cd /
