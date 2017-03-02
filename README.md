@@ -14,7 +14,7 @@ You can get iso of kde-neon-lts from https://files.kde.org/neon/images/neon-user
 
 Complete the installation and reboot.
 
-## Install git, clone these repository's and run giorgino-01.sh
+## Install git, clone this repository and run giorgino-01.sh
 
 After installation, open a terminal and clone this repository.
 
