@@ -13,5 +13,6 @@ sudo mkdir /usr/local/vinsurf/scripts/addons
 sudo mkdir /usr/local/vinsurf/scripts/modules
 cd /usr/local/vinsurf/scripts/addons
 sudo git clone https://github.com/patmo141/odc_public.git
+sudo git clone https://github.com/patmo141/cut_mesh.git
 
 exit
