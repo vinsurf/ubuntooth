@@ -7,11 +7,11 @@ sudo apt upgrade -y
 
 cd /usr/local/vinsurf
 
-sudo git clone https://github.com/patmo141/odc_public.git
 sudo git clone https://github.com/patmo141/odc_public.wiki.git
-sudo mkdir /usr/local/vinsurf/odc_public/scripts
-sudo mkdir /usr/local/vinsurf/odc_public/scripts/addons
-sudo mkdir /usr/local/vinsurf/odc_public/scripts/modules
-
+sudo mkdir /usr/local/vinsurf/scripts
+sudo mkdir /usr/local/vinsurf/scripts/addons
+sudo mkdir /usr/local/vinsurf/scripts/modules
+cd /usr/local/vinsurf/scripts/addons
+sudo git clone https://github.com/patmo141/odc_public.git
 
 exit
