@@ -8,13 +8,13 @@ It also includes installer-scripts for several software.
 
 # How to make Ubuntooth with your own
 
-## Install neon-userltsedition-current.iso
+## Install neon-userltsedition-current.iso (or any Ubuntu 16.04 lts distro)
 
-You can get iso of ubuntu 16.04 from https://files.kde.org/neon/images/neon-userltsedition/current/neon-userltsedition-current.iso
+You can get iso of kde-neon-lts from https://files.kde.org/neon/images/neon-userltsedition/current/neon-userltsedition-current.iso
 
 Complete the installation and reboot.
 
-## Install git, clone these repository's and run giorgino-00.sh
+## Install git, clone these repository's and run giorgino-01.sh
 
 After installation, open a terminal and clone this repository.
 
@@ -24,14 +24,5 @@ After installation, open a terminal and clone this repository.
     $ cd /usr/local/vinsurf
     $ sudo git clone https://github.com/vinsurf/ubuntooth.git
     $ cd ubuntooth
-    $ sudo chmod 777 giorgino-00.sh
-    $ ./giorgino-00.sh
-
-
-## Install Blender, Krita, Meshlab whith ppa
-
-Run **giorgino-01.sh**.
-
-    $ cd /usr/local/vinsurf/ubuntooth
     $ sudo chmod 777 giorgino-01.sh
     $ ./giorgino-01.sh
