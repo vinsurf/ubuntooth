@@ -14,15 +14,19 @@ You can get iso of ubuntu 16.04 from https://files.kde.org/neon/images/neon-user
 
 Complete the installation and reboot.
 
-## Install git and clone this repository
+## Install git, clone these repository's and run giorgino-00.sh
 
 After installation, open a terminal and clone this repository.
 
     $ sudo apt-get install git
     $ cd /
     $ mkdir usr/local/vinsurf
+    $ chmod -R 777 usr/local/vinsurf
     $ cd /usr/local/vinsurf
     $ git clone https://github.com/vinsurf/ubuntooth.git
+    $ cd ubuntooth
+    $ ./giorgino-00.sh
+
 
 ## Install Blender, Krita, Meshlab whith ppa
 
