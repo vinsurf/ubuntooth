@@ -29,5 +29,5 @@ After installation, open a terminal and clone this repository.
 Run **software-01.sh**.
 
     $ cd /usr/local/vinsurf/ubuntooth
-    $ chmod 777 software-01.sh
-    $ ./software-01.sh
+    $ chmod 777 giorgino-01.sh
+    $ ./giorgino-01.sh
