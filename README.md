@@ -23,3 +23,10 @@ After installation, open a terminal and clone this repository.
     $ cd ~/vinsurf
     $ git clone https://github.com/vinsurf/ubuntooth.git
 
+## Install Blender, Krita, Meshlab whith ppa
+
+Run **software-01.sh**.
+
+    $ cd ~/vinsurf/ubuntooth
+    $ chmod 777 software-01.sh
+    $ ./software-01.sh
