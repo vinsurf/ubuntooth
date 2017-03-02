@@ -18,7 +18,7 @@ Complete the installation and reboot.
 
 After installation, open a terminal and clone this repository.
 
-    $ sudo apt-get install git
+    $ sudo apt install -y git
     $ cd /
     $ sudo mkdir usr/local/vinsurf
     $ cd /usr/local/vinsurf
