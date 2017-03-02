@@ -26,7 +26,7 @@ After installation, open a terminal and clone this repository.
 
 ## Install Blender, Krita, Meshlab whith ppa
 
-Run **software-01.sh**.
+Run **giorgino-01.sh**.
 
     $ cd /usr/local/vinsurf/ubuntooth
     $ chmod 777 giorgino-01.sh
