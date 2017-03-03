@@ -1,8 +1,9 @@
-#!bin/bash
+#!/bin/bash         
 #This script install several software for Ubuntooth, useful in digital dentistry workflow, and add some ppa to keep the software updated to latest version
-sudo apt install -y curl jq 
+sudo su
+apt install -y curl jq 
 cd /usr/local/vinsurf
-sudo mkdir /usr/local/vinsurf/scripts
+mkdir /usr/local/vinsurf/scripts
 sudo mkdir /usr/local/vinsurf/scripts/modules
 sudo mkdir /usr/local/vinsurf/scripts/addons
 cd /usr/local/vinsurf/scripts/addons
