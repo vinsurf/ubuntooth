@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=3D Slicer
+Comment=
+Exec=/usr/local/vinsurf/Slicer-4.6.2-linux-amd64/Slicer
+Icon=slicer.png
+Categories=Dentistry;
+StartupNotify=true
+Terminal=false
