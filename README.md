@@ -19,6 +19,7 @@ Complete the installation and reboot. Update and upgrade the system, install pro
 Open a terminal, copy from here (ctrl+v) and paste in the consolle (shift+ctrl+c)
 
     $ sudo apt install -y git
+    $ cd /
     $ sudo mkdir usr/local/vinsurf
     $ cd /usr/local/vinsurf
     $ sudo git clone https://github.com/vinsurf/ubuntooth.git
