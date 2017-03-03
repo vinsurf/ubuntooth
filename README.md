@@ -44,6 +44,10 @@ Enable the addon and it's dependencies in user preferences (don't forget every t
 ![](https://dl.dropboxusercontent.com/s/jopve8bbb8n5g4p/Screenshot_20170303_175140.png?dl=0)
 ![](https://dl.dropboxusercontent.com/s/6u8vj6ehmqv13mx/Screenshot_20170303_175059.png?dl=0)
 
+## Installazione manuale di altri software
 
+# 3D Slicer
+
+Download 3D Slicer from ....
 
 
