@@ -33,6 +33,7 @@ sudo apt install -y git && cd / && sudo mkdir usr/local/vinsurf && cd /usr/local
 
 Questo script installerà Krita, Meshlab e Blender nelle loro versioni più aggiornate e tutti i plugin di Blender creati dal Dr. Patrick Moore per il dentale. Dobbiamo però dire a Blender dove si trovano i plugin ed attivarli manualmente.
 Aprite Blender, File, User Preferences, cliccate sul tab File e alla voce Scripts indicate questo indirizzo /usr/local/vinsurf/scripts/
+
 ![](https://dl.dropboxusercontent.com/s/jjoubh9f0igcike/blenderuserpreference.png?dl=0)
 
 Cliccate su Save User Settings e passate al tab Add-ons
