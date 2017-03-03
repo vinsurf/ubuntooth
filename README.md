@@ -38,7 +38,7 @@ Aprite Blender, File, User Preferences, cliccate sul tab File e alla voce Script
 
 Cliccate su Save User Settings e passate al tab Add-ons
 
-Enable the addon and it's dependencies in user preferences (don't forget evety time to Save User Settings).
+Enable the addon and it's dependencies in user preferences (don't forget every time to Save User Settings).
 ![](https://dl.dropboxusercontent.com/u/2586482/odc_public_documentation/mes_relax.png)
 ![](https://dl.dropboxusercontent.com/u/2586482/odc_public_documentation/loop_tools.png)
 ![](https://dl.dropboxusercontent.com/u/2586482/odc_public_documentation/enable%20addon.png)
