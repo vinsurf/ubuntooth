@@ -5,6 +5,8 @@ cd /usr/local/vinsurf
 sudo mkdir /usr/local/vinsurf/scripts
 sudo mkdir /usr/local/vinsurf/scripts/modules
 sudo mkdir /usr/local/vinsurf/scripts/addons
+cd /usr/local/vinsurf/scripts
+sudo chmod 777 addons
 cd /usr/local/vinsurf/scripts/addons
 #Adding Patrick Moore repository's
 sudo curl https://api.github.com/users/patmo141/repos | jq .[].clone_url | xargs -n 1 git clone
