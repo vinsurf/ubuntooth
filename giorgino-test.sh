@@ -18,6 +18,8 @@ sudo add-apt-repository -y ppa:zarquon42/meshlab
 sudo apt update -y && sudo apt install -y blender krita krita-l10n meshlab
 sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
+cd /
+cd /usr/local
 sudo chmod -R 777 vinsurf
 
 
