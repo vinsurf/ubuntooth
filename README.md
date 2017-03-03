@@ -48,6 +48,8 @@ Enable the addon and it's dependencies in user preferences (don't forget every t
 
 # 3D Slicer
 
-Download 3D Slicer from ....
+Download 3D Slicer from http://download.slicer.org/
+Extract folder in /usr/local/vinsurf
+
 
 
