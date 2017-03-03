@@ -33,7 +33,8 @@ sudo apt install -y git && cd / && sudo mkdir usr/local/vinsurf && cd /usr/local
 
 https://mega.nz/#!64RUHJqR!p-W_Y5h1eV0iNt56eK9rzMyMS4dk4c_aEbyYUBIyJ3w
 
-![](https://www.dropbox.com/s/jjoubh9f0igcike/blenderuserpreference.png?dl=0)
+
+![](https://dl.dropboxusercontent.com/u/2586482/odc_public_documentation/Gallery/Front%20Page.jpg)
 
 
 https://www.dropbox.com/s/jjoubh9f0igcike/blenderuserpreference.png?dl=0
