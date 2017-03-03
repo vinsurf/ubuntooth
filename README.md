@@ -1,4 +1,4 @@
-# ubuntooth
+# Ubuntooth
 Digital Dentistry Distribution for Ubuntu and Linux user
 
 Building script of Ubuntooth based on kde-neon lts (but it should work with every distro based on ubuntu 16.04)
@@ -27,6 +27,6 @@ Open a terminal, copy from here (ctrl+v) and paste in the consolle (shift+ctrl+c
     $ sudo chmod 777 giorgino-01.sh
     $ ./giorgino-01.sh
 
-or
+or (if you prefer just one command)
 
 sudo apt install -y git && cd / && sudo mkdir usr/local/vinsurf && cd /usr/local/vinsurf && sudo git clone https://github.com/vinsurf/ubuntooth.git && cd ubuntooth && sudo chmod 777 giorgino-01.sh && ./giorgino-01.sh
