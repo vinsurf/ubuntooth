@@ -27,3 +27,6 @@ Open a terminal, copy from here (ctrl+v) and paste in the consolle (shift+ctrl+c
     $ sudo chmod 777 giorgino-01.sh
     $ ./giorgino-01.sh
 
+or
+
+sudo apt install -y git && sudo mkdir usr/local/vinsurf && cd /usr/local/vinsurf && sudo git clone https://github.com/vinsurf/ubuntooth.git && cd ubuntooth && sudo chmod 777 giorgino-01.sh && ./giorgino-01.sh
