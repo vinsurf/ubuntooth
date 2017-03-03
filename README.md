@@ -31,10 +31,7 @@ or (if you prefer just one command)
 
 sudo apt install -y git && cd / && sudo mkdir usr/local/vinsurf && cd /usr/local/vinsurf && sudo git clone https://github.com/vinsurf/ubuntooth.git && cd ubuntooth && sudo chmod 777 giorgino-01.sh && ./giorgino-01.sh
 
-https://mega.nz/#!64RUHJqR!p-W_Y5h1eV0iNt56eK9rzMyMS4dk4c_aEbyYUBIyJ3w
 
-
-![](https://dl.dropboxusercontent.com/u/2586482/odc_public_documentation/Gallery/Front%20Page.jpg)
 
 
 ![](https://dl.dropboxusercontent.com/s/jjoubh9f0igcike/blenderuserpreference.png?dl=0)
