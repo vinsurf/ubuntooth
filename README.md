@@ -53,4 +53,7 @@ Download 3D Slicer from http://download.slicer.org/
 Extract folder in /usr/local/vinsurf
 
 
+### Donations
+I spend many hours per week working on this and other projects &mdash; If you like it and want to support me, please consider donating via [Paypal](https://paypal.me/vinsurf) :smile:
 
+If you want to contribute to this project but can't make a monetary donation, shoot me an email and we can sort something out.
