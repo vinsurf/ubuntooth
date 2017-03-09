@@ -14,9 +14,11 @@ sudo curl https://api.github.com/users/patmo141/repos | jq .[].clone_url | xargs
 #sudo add-apt-repository -y ppa:thomas-schiex/blender
 #sudo add-apt-repository -y ppa:kritalime/ppa
 #sudo add-apt-repository -y ppa:zarquon42/meshlab
+#sudo add-apt-repository ppa:wine/wine-builds
 #Installing Software
 sudo apt update -y 
 #sudo apt install -y blender krita krita-l10n meshlab
+#sudo apt install -y winehq-devel
 #sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
 sudo snap install blender
