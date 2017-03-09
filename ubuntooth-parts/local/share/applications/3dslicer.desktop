@@ -5,6 +5,6 @@ Name=3D Slicer
 Comment=
 Exec=/usr/local/vinsurf/Slicer-4.6.2-linux-amd64/Slicer
 Icon=/usr/local/vinsurf/ubuntooth/ubuntooth-parts/icons/slicer.png
-Categories=Dentistry;Graphics;3DGraphics;Science;
+Categories=Dentistry;Dicom;Science;
 StartupNotify=true
 Terminal=false
