@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=3D Slicer CMF
+Comment=
+Exec=/usr/local/vinsurf/SlicerCMF3-1/SlicerCMF3-1
+Icon=/usr/local/vinsurf/ubuntooth/ubuntooth-parts/icons/slicerCMF.png
+Categories=Dentistry;Graphics;3DGraphics;Science;
+StartupNotify=true
+Terminal=false
