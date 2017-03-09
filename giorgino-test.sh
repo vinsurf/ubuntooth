@@ -20,6 +20,7 @@ sudo apt update -y
 sudo apt install -y blender 
 sudo apt install -y krita krita-l10n 
 #sudo apt install -y meshlab
+#sudo apt install -y inkscape
 #sudo apt install -y winehq-devel
 #sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
