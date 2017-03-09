@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PyCam
+Comment=
+Exec=pycam
+Icon=/usr/local/vinsurf/ubuntooth/ubuntooth-parts/icons/pycam.png
+Categories=Dentistry;Graphics;Science;Engineering
+StartupNotify=true
+Terminal=false
