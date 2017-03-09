@@ -36,7 +36,7 @@ cd /usr/local
 sudo chmod -R 777 vinsurf
 
 #add slicer slicercmf itksnap
-cd usr/local/vinsurf
+cd /usr/local/vinsurf
 
 sudo wget http://download.slicer.org/bitstream/561384 -O /usr/local/vinsurf/slicer.tar.gz
 sudo tar -zxvf /usr/local/vinsurf/slicer.tar.gz
