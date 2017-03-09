@@ -5,6 +5,6 @@ Name=3D Slicer CMF
 Comment=
 Exec=/usr/local/vinsurf/SlicerCMF3-1/SlicerCMF3-1
 Icon=/usr/local/vinsurf/ubuntooth/ubuntooth-parts/icons/slicerCMF.png
-Categories=Dentistry;Graphics;3DGraphics;Science;
+Categories=Dentistry;Dicom;Science;
 StartupNotify=true
 Terminal=false
