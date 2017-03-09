@@ -5,6 +5,6 @@ Name=Itk Snap
 Comment=
 Exec=/usr/local/vinsurf/itksnap-3.6.0-rc1-20161029-Linux-x86_64/bin/itksnap
 Icon=/usr/local/vinsurf/ubuntooth/ubuntooth-parts/icons/itksnap.png
-Categories=Dentistry;Graphics;3DGraphics;Science;
+Categories=Dentistry;Dicom;Science;
 StartupNotify=true
 Terminal=false
