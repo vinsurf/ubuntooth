@@ -59,6 +59,10 @@ sudo cp -r /usr/local/vinsurf/ubuntooth/ubuntooth-parts/local/share/applications
 #sudo wget http://software.ultimaker.com/current/Cura-2.4.0.AppImage -O /usr/local/vinsurf/cura.AppImage
 #sudo chmod a+x cura.AppImage
 
+sudo wget https://github.com/SebKuzminsky/pycam/releases/download/v0.6/pycam_0.6_all.deb
+sudo dpkg -i pycam_0.6_all.deb
+
+
 
 
 exit
