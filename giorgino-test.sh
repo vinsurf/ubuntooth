@@ -14,7 +14,8 @@ sudo curl https://api.github.com/users/patmo141/repos | jq .[].clone_url | xargs
 sudo add-apt-repository -y ppa:thomas-schiex/blender
 sudo add-apt-repository -y ppa:kritalime/ppa
 sudo add-apt-repository -y ppa:thopiekar/cura
-#sudo add-apt-repository -y ppa:zarquon42/meshlab better snap package
+sudo add-apt-repository -y ppa:inkscape.dev/stable
+#sudo add-apt-repository -y ppa:zarquon42/meshlab (better snap package)
 sudo add-apt-repository ppa:wine/wine-builds
 #Installing Software
 sudo apt update -y 
