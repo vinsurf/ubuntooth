@@ -50,6 +50,8 @@ sudo wget https://sourceforge.net/projects/itk-snap/files/itk-snap/3.6.0-rc1/itk
 sudo tar -zxvf /usr/local/vinsurf/itksnap.tar.gz
 sudo rm -f /usr/local/vinsurf/itksnap.tar.gz
 
+sudo cp -r /usr/local/vinsurf/ubuntooth/ubuntooth-parts/local/share/applications /usr/share/applications
+
 
 
 exit
