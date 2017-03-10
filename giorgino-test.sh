@@ -63,7 +63,11 @@ sudo cp -r /usr/local/vinsurf/ubuntooth/ubuntooth-parts/local/share/applications
 sudo wget https://github.com/SebKuzminsky/pycam/releases/download/v0.6/pycam_0.6_all.deb
 sudo dpkg -i pycam_0.6_all.deb
 
+sudo apt-get update --fix-missing
 
+sudo dpkg --configure -a
+
+sudo apt-get install -f
 
 
 
