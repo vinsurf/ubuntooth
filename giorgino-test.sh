@@ -16,7 +16,7 @@ sudo add-apt-repository -y ppa:kritalime/ppa
 sudo add-apt-repository -y ppa:thopiekar/cura
 sudo add-apt-repository -y ppa:inkscape.dev/stable
 #sudo add-apt-repository -y ppa:zarquon42/meshlab (better snap package)
-sudo add-apt-repository ppa:wine/wine-builds
+sudo add-apt-repository -y ppa:wine/wine-builds
 #Installing Software
 sudo apt update -y 
 sudo apt install -y blender 
@@ -28,7 +28,8 @@ sudo apt install -y cura cura-plugins-all cura-extra-plugins-all
 sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
 #sudo snap install blender-tpaw
-sudo snap install meshlab
+#sudo snap install meshlab
+sudo snap install meshlab-mardy
 sudo snap install cloudcompare
 #sudo snap install krita
 #sudo snap install inkscape
@@ -61,6 +62,8 @@ sudo cp -r /usr/local/vinsurf/ubuntooth/ubuntooth-parts/local/share/applications
 
 sudo wget https://github.com/SebKuzminsky/pycam/releases/download/v0.6/pycam_0.6_all.deb
 sudo dpkg -i pycam_0.6_all.deb
+
+
 
 
 
