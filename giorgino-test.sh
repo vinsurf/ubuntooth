@@ -31,6 +31,7 @@ sudo apt install -y cura cura-plugins-all cura-extra-plugins-all
 sudo apt install -y cloudcompare
 sudo apt install -y vokoscreen
 sudo apt install -y telegram
+sudo apt install -y aeskulap
 sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
 #sudo snap install blender-tpaw
