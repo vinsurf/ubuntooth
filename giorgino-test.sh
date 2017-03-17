@@ -15,10 +15,10 @@ sudo add-apt-repository -y ppa:thomas-schiex/blender
 sudo add-apt-repository -y ppa:kritalime/ppa
 sudo add-apt-repository -y ppa:thopiekar/cura
 sudo add-apt-repository -y ppa:inkscape.dev/stable
-sudo add-apt-repository -y ppa:zarquon42/meshlab 
-sudo add-apt-repository -y ppa:romain-janvier/cloudcompare
+#sudo add-apt-repository -y ppa:zarquon42/meshlab 
+#sudo add-apt-repository -y ppa:romain-janvier/cloudcompare
 sudo add-apt-repository -y ppa:freecad-maintainers/freecad-stable
-sudo add-apt-repository -y ppa:vokoscreen-dev/vokoscreen-daily
+#sudo add-apt-repository -y ppa:vokoscreen-dev/vokoscreen-daily
 sudo add-apt-repository -y ppa:atareao/telegram
 sudo add-apt-repository -y ppa:wine/wine-builds
 sudo add-apt-repository -y ppa:libreoffice/ppa
@@ -32,7 +32,7 @@ sudo apt install -y meshlab
 sudo apt install -y inkscape
 sudo apt install -y winehq-devel
 sudo apt install -y cura cura-plugins-all cura-extra-plugins-all
-sudo apt install -y cloudcompare
+#sudo apt install -y cloudcompare
 sudo apt install -y freecad
 sudo apt install -y vokoscreen
 sudo apt install -y telegram
@@ -45,9 +45,9 @@ sudo apt install -y gnome-pie
 sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
 #sudo snap install blender-tpaw
-#sudo snap install meshlab
-#sudo snap install meshlab-mardy
-#sudo snap install cloudcompare
+sudo snap install meshlab
+sudo snap install meshlab-mardy
+sudo snap install cloudcompare
 #sudo snap install krita
 #sudo snap install inkscape
 #sudo snap install libreoffice
