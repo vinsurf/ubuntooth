@@ -17,10 +17,13 @@ sudo add-apt-repository -y ppa:thopiekar/cura
 sudo add-apt-repository -y ppa:inkscape.dev/stable
 sudo add-apt-repository -y ppa:zarquon42/meshlab 
 sudo add-apt-repository -y ppa:romain-janvier/cloudcompare
+sudo add-apt-repository -y ppa:freecad-maintainers/freecad-stable
 sudo add-apt-repository -y ppa:vokoscreen-dev/vokoscreen-daily
 sudo add-apt-repository -y ppa:atareao/telegram
 sudo add-apt-repository -y ppa:wine/wine-builds
 sudo add-apt-repository -y ppa:libreoffice/ppa
+sudo add-apt-repository -y ppa:docky-core/stable
+sudo add-apt-repository -y ppa:simonschneegans/testing
 #Installing Software
 sudo apt update -y 
 sudo apt install -y blender 
@@ -30,10 +33,15 @@ sudo apt install -y inkscape
 sudo apt install -y winehq-devel
 sudo apt install -y cura cura-plugins-all cura-extra-plugins-all
 sudo apt install -y cloudcompare
+sudo apt install -y freecad
 sudo apt install -y vokoscreen
 sudo apt install -y telegram
 sudo apt install -y aeskulap
 sudo apt install -y libreoffice
+sudo apt install -y gimp
+sudo apt install -y playonlinux
+sudo apt install -y plank
+sudo apt install -y gnome-pie
 sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
 #sudo snap install blender-tpaw
