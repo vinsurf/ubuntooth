@@ -67,7 +67,7 @@ sudo apt-get update --fix-missing
 
 sudo dpkg --configure -a
 
-sudo apt-get install -f
+sudo apt install -y -f
 
 
 
