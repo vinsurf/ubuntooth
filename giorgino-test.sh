@@ -28,8 +28,8 @@ sudo apt install -y cura cura-plugins-all cura-extra-plugins-all
 sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
 #sudo snap install blender-tpaw
-#sudo snap install meshlab
-sudo snap install meshlab-mardy
+sudo snap install meshlab
+#sudo snap install meshlab-mardy
 sudo snap install cloudcompare
 #sudo snap install krita
 #sudo snap install inkscape
