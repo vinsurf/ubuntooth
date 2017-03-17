@@ -20,6 +20,7 @@ sudo add-apt-repository -y ppa:romain-janvier/cloudcompare
 sudo add-apt-repository -y ppa:vokoscreen-dev/vokoscreen-daily
 sudo add-apt-repository -y ppa:atareao/telegram
 sudo add-apt-repository -y ppa:wine/wine-builds
+sudo add-apt-repository -y ppa:libreoffice/ppa
 #Installing Software
 sudo apt update -y 
 sudo apt install -y blender 
@@ -32,6 +33,7 @@ sudo apt install -y cloudcompare
 sudo apt install -y vokoscreen
 sudo apt install -y telegram
 sudo apt install -y aeskulap
+sudo apt install -y libreoffice
 sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
 #sudo snap install blender-tpaw
