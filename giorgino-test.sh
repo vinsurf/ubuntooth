@@ -68,8 +68,11 @@ sudo cp -r /usr/local/vinsurf/ubuntooth/ubuntooth-parts/local/share/applications
 
 sudo wget https://downloadeu2.teamviewer.com/download/version_12x/teamviewer_12.0.71510_i386.deb
 sudo wget https://github.com/SebKuzminsky/pycam/releases/download/v0.6/pycam_0.6_all.deb
+sudo wget https://iweb.dl.sourceforge.net/project/pinguy-os/ISO_Builder/pinguybuilder_4.3-8_all-beta.deb
+
 sudo dpkg -i teamviewer_12.0.71510_i386.deb
 sudo dpkg -i pycam_0.6_all.deb
+sudo dpkg -i pinguybuilder_4.3-8_all-beta.deb
 
 sudo apt-get update --fix-missing
 
