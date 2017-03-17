@@ -80,6 +80,8 @@ sudo dpkg --configure -a
 
 sudo apt install -y -f
 
+cd
+
 
 
 
