@@ -15,27 +15,33 @@ sudo add-apt-repository -y ppa:thomas-schiex/blender
 sudo add-apt-repository -y ppa:kritalime/ppa
 sudo add-apt-repository -y ppa:thopiekar/cura
 sudo add-apt-repository -y ppa:inkscape.dev/stable
-#sudo add-apt-repository -y ppa:zarquon42/meshlab (better snap package)
+sudo add-apt-repository -y ppa:zarquon42/meshlab 
+sudo add-apt-repository -y ppa:romain-janvier/cloudcompare
+sudo add-apt-repository -y ppa:vokoscreen-dev/vokoscreen-daily
+sudo add-apt-repository -y ppa:atareao/telegram
 sudo add-apt-repository -y ppa:wine/wine-builds
 #Installing Software
 sudo apt update -y 
 sudo apt install -y blender 
 sudo apt install -y krita krita-l10n 
-#sudo apt install -y meshlab better snap
+sudo apt install -y meshlab 
 sudo apt install -y inkscape
 sudo apt install -y winehq-devel
 sudo apt install -y cura cura-plugins-all cura-extra-plugins-all
+sudo apt install -y cloudcompare
+sudo apt install -y vokoscreen
+sudo apt install -y telegram
 sudo dpkg --configure -a
 #Give permission to write in folder vinsurf
 #sudo snap install blender-tpaw
-sudo snap install meshlab
+#sudo snap install meshlab
 #sudo snap install meshlab-mardy
-sudo snap install cloudcompare
+#sudo snap install cloudcompare
 #sudo snap install krita
 #sudo snap install inkscape
 #sudo snap install libreoffice
-sudo snap install telegram
-sudo snap install simplescreenrecorder-mardy
+#sudo snap install telegram
+# sudo snap install simplescreenrecorder-mardy
 cd /usr/local
 sudo chmod -R 777 vinsurf
 
@@ -60,7 +66,9 @@ sudo cp -r /usr/local/vinsurf/ubuntooth/ubuntooth-parts/local/share/applications
 #sudo wget http://software.ultimaker.com/current/Cura-2.4.0.AppImage -O /usr/local/vinsurf/cura.AppImage
 #sudo chmod a+x cura.AppImage
 
+sudo wget https://downloadeu2.teamviewer.com/download/version_12x/teamviewer_12.0.71510_i386.deb
 sudo wget https://github.com/SebKuzminsky/pycam/releases/download/v0.6/pycam_0.6_all.deb
+sudo dpkg -i teamviewer_12.0.71510_i386.deb
 sudo dpkg -i pycam_0.6_all.deb
 
 sudo apt-get update --fix-missing
