@@ -1,6 +1,8 @@
 #!/bin/bash         
 #This script install several software for Ubuntooth, useful in digital dentistry workflow, and add some ppa to keep the software updated to latest version
+#install software to clone git repo
 sudo apt install -y curl jq 
+#make local folder
 cd /usr/local/vinsurf
 sudo mkdir /usr/local/vinsurf/scripts
 sudo mkdir /usr/local/vinsurf/scripts/modules
@@ -22,8 +24,9 @@ sudo add-apt-repository -y ppa:freecad-maintainers/freecad-stable
 sudo add-apt-repository -y ppa:atareao/telegram
 sudo add-apt-repository -y ppa:wine/wine-builds
 sudo add-apt-repository -y ppa:libreoffice/ppa
-sudo add-apt-repository -y ppa:docky-core/stable
-sudo add-apt-repository -y ppa:simonschneegans/testing
+#sudo add-apt-repository -y ppa:docky-core/stable
+#sudo add-apt-repository -y ppa:simonschneegans/testing
+sudo add-apt-repository -y ppa:elmer-csc-ubuntu/elmer-csc-ppa
 #Installing Software
 sudo apt update -y 
 sudo apt install -y blender 
@@ -40,10 +43,10 @@ sudo apt install -y aeskulap
 sudo apt install -y libreoffice
 sudo apt install -y gimp
 sudo apt install -y playonlinux
-sudo apt install -y plank
-sudo apt install -y gnome-pie
+#sudo apt install -y plank
+#sudo apt install -y gnome-pie
+sudo apt install -y elmerfem-csc
 sudo dpkg --configure -a
-#Give permission to write in folder vinsurf
 #sudo snap install blender-tpaw
 sudo snap install meshlab
 sudo snap install meshlab-mardy
@@ -54,6 +57,7 @@ sudo snap install cloudcompare
 #sudo snap install telegram
 # sudo snap install simplescreenrecorder-mardy
 cd /usr/local
+#Give permission to write in folder vinsurf
 sudo chmod -R 777 vinsurf
 
 #add slicer slicercmf itksnap
