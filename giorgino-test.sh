@@ -46,6 +46,7 @@ sudo apt install -y playonlinux
 #sudo apt install -y plank
 #sudo apt install -y gnome-pie
 sudo apt install -y elmerfem-csc
+sudo apt install -y software-properties-gtk
 sudo dpkg --configure -a
 #sudo snap install blender-tpaw
 sudo snap install meshlab
