@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Elmer
+Comment=
+Exec=/usr/bin/ElmerGUI
+Icon=/usr/local/vinsurf/ubuntooth/ubuntooth-parts/icons/slicer.png
+Categories=Dentistry;Engeni;Science;
+StartupNotify=true
+Terminal=false
