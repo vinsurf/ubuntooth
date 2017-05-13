@@ -31,7 +31,7 @@ sudo add-apt-repository -y ppa:elmer-csc-ubuntu/elmer-csc-ppa
 sudo apt update -y 
 sudo apt install -y blender 
 sudo apt install -y krita krita-l10n 
-sudo apt install -y meshlab 
+#sudo apt install -y meshlab 
 sudo apt install -y inkscape
 sudo apt install -y winehq-devel
 sudo apt install -y cura cura-plugins-all cura-extra-plugins-all
