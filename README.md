@@ -24,12 +24,12 @@ Open a terminal, copy from here (ctrl+v) and paste in the consolle (shift+ctrl+c
     $ cd /usr/local/vinsurf
     $ sudo git clone https://github.com/vinsurf/ubuntooth.git
     $ cd ubuntooth
-    $ sudo chmod 777 giorgino-01.sh
-    $ ./giorgino-01.sh
+    $ sudo chmod 777 giorgino-test.sh
+    $ ./giorgino-test.sh
 
 or (if you prefer just one command)
 
-sudo apt install -y git && cd / && sudo mkdir usr/local/vinsurf && cd /usr/local/vinsurf && sudo git clone https://github.com/vinsurf/ubuntooth.git && cd ubuntooth && sudo chmod 777 giorgino-01.sh && ./giorgino-01.sh
+sudo apt install -y git && cd / && sudo mkdir usr/local/vinsurf && cd /usr/local/vinsurf && sudo git clone https://github.com/vinsurf/ubuntooth.git && cd ubuntooth && sudo chmod 777 giorgino-test.sh && ./giorgino-test.sh
 
 Questo script installerà Krita, Meshlab e Blender nelle loro versioni più aggiornate e tutti i plugin di Blender creati dal Dr. Patrick Moore per il dentale. Dobbiamo però dire a Blender dove si trovano i plugin ed attivarli manualmente.
 Aprite Blender, File, User Preferences, cliccate sul tab File e alla voce Scripts indicate questo indirizzo /usr/local/vinsurf/scripts/
