@@ -14,7 +14,7 @@ You can get iso of kde-neon-lts from https://files.kde.org/neon/images/neon-user
 
 Complete the installation and reboot. Update and upgrade the system, install proprietary driver for graphics card if needed, and reboot. Now you're ready.
 
-## Install git, clone this repository and run giorgino-01.sh
+## Install git, clone this repository and run giorgino-test.sh
 
 Open a terminal, copy from here (ctrl+v) and paste in the consolle (shift+ctrl+c)
 
@@ -44,7 +44,7 @@ Enable the addon and it's dependencies in user preferences (don't forget every t
 ![](https://dl.dropboxusercontent.com/s/jopve8bbb8n5g4p/Screenshot_20170303_175140.png?dl=0)
 ![](https://dl.dropboxusercontent.com/s/6u8vj6ehmqv13mx/Screenshot_20170303_175059.png?dl=0)
 
-
+I'm working on a script to automatically configure blender plugins
 
 
 ### Donations
