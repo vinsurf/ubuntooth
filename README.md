@@ -31,12 +31,12 @@ or (if you prefer just one command)
 
 sudo apt install -y git && cd / && sudo mkdir usr/local/vinsurf && cd /usr/local/vinsurf && sudo git clone https://github.com/vinsurf/ubuntooth.git && cd ubuntooth && sudo chmod 777 giorgino-test.sh && ./giorgino-test.sh
 
-Questo script installerà Krita, Meshlab e Blender nelle loro versioni più aggiornate e tutti i plugin di Blender creati dal Dr. Patrick Moore per il dentale. Dobbiamo però dire a Blender dove si trovano i plugin ed attivarli manualmente.
-Aprite Blender, File, User Preferences, cliccate sul tab File e alla voce Scripts indicate questo indirizzo /usr/local/vinsurf/scripts/
+This script will install Krita, Meshlab and Blender in their latest versions and all Blender plugins created by Dr. Patrick Moore for the dental. But we have to tell Blender where the plugins are located and activate them manually.
+Open Blender, File, User Preferences, click on the File tab, and in Scripts, enter: /usr/local/vinsurf/scripts/
 
 ![](https://dl.dropboxusercontent.com/s/jjoubh9f0igcike/blenderuserpreference.png?dl=0)
 
-Cliccate su Save User Settings e passate al tab Add-ons
+Click Save User Settings and go to the Add-ons tab
 
 Enable the addon and it's dependencies in user preferences (don't forget every time to Save User Settings).
 ![](https://dl.dropboxusercontent.com/s/a2zh0szm6mspax8/Screenshot_20170303_175223.png?dl=0)
