@@ -1,7 +1,7 @@
 # Ubuntooth
 Digital Dentistry Distribution for Ubuntu and Linux user
 
-Building script of Ubuntooth based on kde-neon lts (but it should work with every distro based on ubuntu 16.04 and later)
+Building script of Ubuntooth based on kde-neon lts (but it should work with every distro based on ubuntu 16.04 or later)
 
 This repository includes scripts to make Ubuntooth from a fresh kde neon lts installation.
 It also includes installer-scripts for several software.
