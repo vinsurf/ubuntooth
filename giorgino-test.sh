@@ -99,6 +99,11 @@ sudo dpkg --configure -a
 
 sudo apt install -y -f
 
+sudo rm -f /usr/local/vinsurf/teamviewer_i386.deb
+sudo rm -f /usr/local/vinsurf/pycam_0.6_all.deb
+sudo rm -f /usr/local/vinsurf/pinguybuilder_4.3-8_all-beta.deb
+sudo rm -f /usr/local/vinsurf/mintdrivers_1.3.4_all.deb
+
 cd
 
 
