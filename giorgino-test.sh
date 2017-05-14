@@ -41,7 +41,7 @@ sudo mkdir 2.78
 cd 2.78
 sudo mkdir config
 cd config
-sudo cp -r /usr/local/vinsurf/ubuntooth/ubuntooth-parts/copy/userpref.blend /etc/skel/.config/blender/2.78/config
+sudo cp /usr/local/vinsurf/ubuntooth/ubuntooth-parts/copy/userpref.blend /etc/skel/.config/blender/2.78/config
 cd 
 cd /home
 sudo mkdir ubuntooth
@@ -52,7 +52,7 @@ sudo mkdir blender
 cd blender
 sudo mkdir config
 cd config
-sudo cp -r /usr/local/vinsurf/ubuntooth/ubuntooth-parts/copy/userpref.blend /home/ubuntooth/.config/blender/2.78/config
+sudo cp /usr/local/vinsurf/ubuntooth/ubuntooth-parts/copy/userpref.blend /home/ubuntooth/.config/blender/2.78/config
 cd /usr/local/vinsurf
 sudo apt install -y krita krita-l10n 
 #sudo apt install -y meshlab 
