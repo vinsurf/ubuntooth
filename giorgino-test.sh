@@ -43,7 +43,7 @@ sudo mkdir config
 cd config
 sudo cp /usr/local/vinsurf/ubuntooth/ubuntooth-parts/copy/userpref.blend /etc/skel/.config/blender/2.78/config
 cd 
-sudo mkdir ~/.config/blender/2.78/config
+sudo mkdir -p ~/.config/blender/2.78/config
 sudo cp /etc/skel/.config/blender/2.78/config/userpref.blend ~/.config/blender/2.78/config
 cd /usr/local/vinsurf
 sudo apt install -y krita krita-l10n 
