@@ -52,16 +52,19 @@ sudo apt install -y elementary-tweaks
 #sudo apt install -y krita krita-l10n 
 #sudo apt install -y meshlab 
 sudo apt install -y inkscape
+sudo apt install -y language-pack-gnome-it
 #sudo apt install -y winehq-devel
 sudo apt install -y cura cura-plugins-all cura-extra-plugins-all
 #sudo apt install -y cloudcompare
 sudo apt install -y freecad
 sudo apt install -y vokoscreen
+sudo apt install -y menulibre
 sudo apt install -y telegram
 sudo apt install -y aeskulap
 sudo apt install -y libreoffice libreoffice-gtk libreoffice-style-sifr libreoffice-l10n-it
 sudo apt install -y brasero
 sudo apt install -y gimp
+sudo apt install -y indicator-synapse
 #sudo apt install -y playonlinux
 #sudo apt install -y plank
 sudo apt install -y gnome-pie
